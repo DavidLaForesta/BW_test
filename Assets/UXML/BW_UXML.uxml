@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/StyleClass/BW_USS.uss?fileID=7433441132597879392&amp;guid=a211369b79f8d3a42a0a007cb8abb14c&amp;type=3#BW_USS" />
+    <ui:VisualElement name="VisualElement" style="height: 200px;">
+        <uie:CurveField binding-path="BW_Balace" focusable="false" style="height: auto; flex-basis: 100%; flex-direction: column-reverse;">
+            <ui:Label text="BW Balace" display-tooltip-when-elided="true" style="-unity-text-align: upper-left;" />
+        </uie:CurveField>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/TestUIToolKit/UXML/Resources/TestUITK_USS.uss?fileID=7433441132597879392&amp;guid=03513974eea56414e9c139dc1414d539&amp;type=3#TestUITK_USS" />
+    <mywindow.Window />
+</ui:UXML>

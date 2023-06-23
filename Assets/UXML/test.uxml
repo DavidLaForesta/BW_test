@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <Style src="project://database/Assets/StyleClass/test.uss?fileID=7433441132597879392&amp;guid=b7a080ea8b1521e4e9eb1cd42f7b63aa&amp;type=3#test" />
+    <ui:GroupBox style="height: 244px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; background-color: rgba(0, 0, 0, 0.26); margin-bottom: 3px; margin-top: 3px; padding-right: 3px; justify-content: flex-end; flex-shrink: 0;">
+        <ui:Label text="BW_B" display-tooltip-when-elided="true" />
+        <ui:GroupBox style="flex-basis: 90%; justify-content: flex-start; flex-direction: column; transform-origin: center;">
+            <ui:VisualElement class="gTest" style="height: 176px;" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+    <uie:GradientField label="Gradient" style="height: 48px;" />
+    <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" mode="VerticalAndHorizontal" style="height: 100px;">
+        <uie:ColorField label="Color" value="RGBA(0.000, 1.000, 1.000, 1.000)" style="height: 108px; width: 401px;" />
+    </ui:ScrollView>
+    <uie:CurveField label="Curve" style="height: 156px;" />
+</ui:UXML>
